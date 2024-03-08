@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ARTIFACT>
+
+  
+    <App>
+        <Id>ARTIFACT</Id>
+    </App>
+
+  	<AppMetrics>
+		<Enabled>true</Enabled>
+		<AutoCreateDb>false</AutoCreateDb> <!-- CHANGE THIS IF NEW APP -->
+		<BatchSizing>1000</BatchSizing>
+		<ReportingFrequencyInSeconds>5</ReportingFrequencyInSeconds>
+		<AppName>${App.Id}</AppName>
+		<Registry>Influx</Registry>
+
+		<Influx>
+			<Name>${App.Id}</Name>
+			<UserName>ee6SHf2cfaEgkYpJsQNZHUSPvpJ81ScU</UserName>
+			<Pasword>qaBernNglWl3GmR7m7KUz1bQZstYXPpz</Pasword>
+			<URI>http://localhost:8086</URI>
+		</Influx>
+	</AppMetrics>
+</ARTIFACT>
